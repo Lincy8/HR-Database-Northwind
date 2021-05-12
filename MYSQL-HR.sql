@@ -144,7 +144,8 @@ Use northwind;
  FROM products;
  /*Write a query to get current Product list (Product ID and name)*/
   SELECT  ProductID,ProductName
-  FROM products;
+  FROM products
+  WHERE Discontinued = 0;
   /*Write a query to get discontinued Product list (Product ID and name)*/
   SELECT ProductID, ProductName
 FROM products
